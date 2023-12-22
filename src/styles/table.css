@@ -1,0 +1,356 @@
+/* 
+.custom-table {
+  font-size: 14px;
+}
+
+.rows-per-page-dropdown,
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rows-per-page-dropdown select {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  margin-right: 10px !important;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 256px;
+}
+
+
+.table-responsive {
+  overflow-x: auto;
+  max-height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+
+.thead-dark th {
+  color: #8E8E8E !important;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.thead-dark th:first-child {
+  width: 2.8rem;
+}
+
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+.pagination button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f5f6f7;
+  color: #050505;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+.pagination-button-prev-button {
+  background-color: transparent !important;
+  color:#4747A7 !important;
+  ;
+}
+
+.pagination-button-prev-button:disabled {
+  color: #D9D9D9  !important;
+}
+
+
+.pagination-button-next-button {
+  background-color: transparent !important;
+  color:#4747A7 !important;
+}
+
+.pagination-button-next-button:disabled {
+  background-color: transparent !important;
+  color: #D9D9D9  !important;
+}
+
+.pagination button.active {
+  background-color: #4747A7;
+  ;
+  color: white;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.filter-input {
+  margin: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  height: 30px !important;
+}
+
+.pill-button {
+  border-radius: 50px;
+  background: #0067C3 ;
+  color: white;
+  border: 2px solid #0067C3 !important;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0.25rem 1rem;
+}
+
+.pill-button:hover {
+  background: #004889;
+  color: white;
+}
+
+.table-formselect {
+  width: 58px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #4B49AC !important;
+  letter-spacing: 0.20000000298023224px !important;
+  margin: 0.5rem 0.5rem 0.5rem 0 !important;
+  text-align: start !important;
+  padding: 0.1rem 0.4rem !important;
+
+}
+
+.add-btn {
+  border-radius: 50px;
+  color: white ;
+  background-color: #0067C3;
+  border: 2px solid #0067C3 !important;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0.25rem 1rem;
+}
+
+.add-btn:hover {
+  background: #004889;
+  border: 2px solid #004889 !important;
+  color:white;
+}
+ */
+
+ /* Set the font family to Roboto */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #5f5f5f;
+  font-size: 14px;
+}
+
+/* Style the table container */
+.custom-table {
+  font-size: 14px;
+}
+
+/* Style the table title and subtitle */
+/* .table-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #3F3F3F;
+} */
+
+/* Style the rows-per-page dropdown and search bar */
+.rows-per-page-dropdown,
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rows-per-page-dropdown select {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  margin-right: 10px !important;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 256px;
+}
+
+/* Style the table */
+.table-responsive {
+  overflow-x: auto;
+  max-height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+
+.thead-dark th {
+  color: #8E8E8E !important;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.thead-dark th:first-child {
+  width: 2.8rem;
+}
+
+/* Style the pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pagination button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f5f6f7;
+  color: #050505;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pagination-button-prev-button {
+  background-color: transparent !important;
+  color: #4747A7 !important;
+}
+
+.pagination-button-prev-button:disabled {
+  color: #D9D9D9 !important;
+}
+
+.pagination-button-next-button {
+  background-color: transparent !important;
+  color: #4747A7 !important;
+}
+
+.pagination-button-next-button:disabled {
+  background-color: transparent !important;
+  color: #D9D9D9 !important;
+}
+
+.pagination button.active {
+  background-color: #4747A7;
+  color: white;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.filter-input {
+  margin: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  height: 30px !important;
+}
+
+.pill-button {
+  border-radius: 50px;
+  background: #0067C3;
+  color: white;
+  border: 2px solid #0067C3 !important;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0.25rem 1rem;
+}
+
+.pill-button:hover {
+  background: #004889;
+  color: white;
+}
+
+.table-formselect {
+  width: 58px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #4B49AC !important;
+  letter-spacing: 0.20000000298023224px !important;
+  margin: 0.5rem 0.5rem 0.5rem 0 !important;
+  text-align: start !important;
+  padding: 0.1rem 0.4rem !important;
+}
+
+.add-btn {
+  border-radius: 50px;
+  color: white;
+  background-color: #0067C3;
+  border: 2px solid #0067C3 !important;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0.25rem 1rem;
+}
+
+.add-btn:hover {
+  background: #004889;
+  border: 2px solid #004889 !important;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px; 
+  }
+
+  .search-bar input,
+  .rows-per-page-dropdown select {
+    width: 100%;
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+
+  .table-responsive {
+    max-height: unset; 
+  }
+
+  .thead-dark th {
+    padding: 8px; 
+    font-size: 12px; 
+  }
+
+  .pagination {
+    margin-top: 10px; 
+  }
+
+  .pagination button,
+  .pill-button,
+  .add-btn {
+    padding: 0.25rem 0.5rem; 
+    font-size: 12px; 
+    margin: 2px;
+  }
+
+  .table-formselect,
+  .filter-input {
+    width: auto; 
+    margin: 5px 0; 
+  }
+}
+

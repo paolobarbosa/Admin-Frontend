@@ -1,0 +1,22 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: linear-gradient(90deg, #F8F9FF 0%, #EFF1FF 100%);
+
+}
+
+.dashboard-content {
+    flex: 1 1 0%;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+}
+
+.dashboard .content .inner-content {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+

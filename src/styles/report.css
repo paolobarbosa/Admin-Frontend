@@ -1,0 +1,25 @@
+.report-type-container {
+    width:30%;
+    justify-content: flex-start;
+    padding: 10px;
+  ;
+}
+
+.report-type-formselect{
+font-family: 'Roboto', sans-serif;
+color: #8E8E8E !important;
+font-size: 15px;
+}
+
+.report-filter-formselect {
+    display: flex;
+    text-align: wrap;
+    justify-content: flex-start;
+    flex: 0 0 calc(20%);
+    margin: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #8E8E8E !important;
+    font-size: 15px;
+}
+
+
